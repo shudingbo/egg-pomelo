@@ -1,0 +1,59 @@
+{
+  "name": "egg-pomelo",
+  "version": "0.1.0",
+  "description": "sex pomelo cli for egg",
+  "eggPlugin": {
+    "name": "pomelo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shudingbo/egg-pomelo.git"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "pomelo"
+  ],
+  "dependencies": {
+    "@sex-pomelo/sex-pomelo-admin": "^1.0.2",
+    "@sex-pomelo/sex-pomelo-logger": "^0.1.9",
+    "async": "^2.6.1",
+    "cliff": ">=0.1.10",
+    "ioredis": "^4.14.1"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.26.0",
+    "egg-bin": "^4.14.1",
+    "egg-ci": "^1.13.1",
+    "egg-mock": "^3.25.1",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.5.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/shudingbo/egg-pomelo",
+  "bugs": {
+    "url": "https://github.com/shudingbo/egg-pomelo/issues"
+  },
+  "ci": {
+    "version": "8, 10"
+  },
+  "scripts": {
+    "autod": "autod",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "pkgfiles": "egg-bin pkgfiles",
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test"
+  },
+  "author": {
+    "name": "shudingbo"
+  },
+  "license": "MIT"
+}
