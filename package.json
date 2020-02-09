@@ -18,8 +18,6 @@
   "dependencies": {
     "@sex-pomelo/sex-pomelo-admin": "^1.0.2",
     "@sex-pomelo/sex-pomelo-logger": "^0.1.9",
-    "async": "^2.6.1",
-    "cliff": ">=0.1.10",
     "ioredis": "^4.14.1"
   },
   "deprecated": false,
