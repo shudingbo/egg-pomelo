@@ -4,13 +4,13 @@ module.exports = () => {
   const config = {};
 
   config.customLogger = {
-    schexLogger: {
+    pomeloLogger: {
       consoleLevel: 'INFO',
       file: 'egg-pomelo.log',
     },
   };
 
-  config.schex = {
+  config.pomelo = {
     // custom additional directory, full path
     directory: [],
   };
