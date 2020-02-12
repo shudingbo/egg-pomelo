@@ -19,7 +19,7 @@
 
 egg-schex 版本 | egg 1.x
 --- | ---
-1.x | 😁
+1.x | ��
 
 ### 依赖的插件
 
@@ -75,6 +75,10 @@ exports.pomelo = {
 
 
 ## 更改记录
+
+### 0.0.2
+ 1. 增加语法提示功能
+ 2. 增加 monitorLog,systemInfo,nodeInfo 功能接口
 
 ### 0.0.1
  1. 实现基本任务功能
