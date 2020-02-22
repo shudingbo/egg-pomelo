@@ -75,6 +75,9 @@ exports.pomelo = {
 
 
 ## 更改记录
+### 0.0.4
+ 1. 使用 sex-pomelo-admin 1.0.6
+ 2. 支持 show connectionInfo 命令
 ### 0.0.3
  1. 使用 sex-pomelo-admin 1.0.5
 

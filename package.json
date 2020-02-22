@@ -1,6 +1,6 @@
 {
   "name": "egg-pomelo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "sex pomelo cli for egg",
   "eggPlugin": {
     "name": "pomelo"
