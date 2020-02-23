@@ -16,7 +16,7 @@
     "pomelo"
   ],
   "dependencies": {
-    "@sex-pomelo/sex-pomelo-admin": "^1.0.5",
+    "@sex-pomelo/sex-pomelo-admin": "^1.0.6",
     "@sex-pomelo/sex-pomelo-logger": "^0.1.9",
     "ioredis": "^4.14.1"
   },
