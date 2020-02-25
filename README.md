@@ -75,6 +75,10 @@ exports.pomelo = {
 
 
 ## 更改记录
+### 0.0.5
+ 1. 使用 sex-pomelo-admin 1.0.7;
+ 2. 实现确保多个命令并行执行时，返回数据顺序正确；
+
 ### 0.0.4
  1. 使用 sex-pomelo-admin 1.0.6
  2. 支持 show connectionInfo 命令
