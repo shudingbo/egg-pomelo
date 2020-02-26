@@ -8,8 +8,6 @@
 [sample]: https://github.com/shudingbo/sex-pomelo-web
 
 
-![Setting][idSet]
-
 本插件用于为eggjs提供poemlo管理功能（pomelo-cli web版本）
 
 
