@@ -1,6 +1,6 @@
 {
   "name": "egg-pomelo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "sex pomelo cli for egg",
   "eggPlugin": {
     "name": "pomelo"
@@ -17,8 +17,7 @@
   ],
   "dependencies": {
     "@sex-pomelo/sex-pomelo-admin": "^1.0.7",
-    "@sex-pomelo/sex-pomelo-logger": "^0.1.9",
-    "ioredis": "^4.14.1"
+    "@sex-pomelo/sex-pomelo-logger": "^0.1.9"
   },
   "deprecated": false,
   "devDependencies": {
@@ -37,9 +36,6 @@
   "homepage": "https://github.com/shudingbo/egg-pomelo",
   "bugs": {
     "url": "https://github.com/shudingbo/egg-pomelo/issues"
-  },
-  "ci": {
-    "version": "8, 10"
   },
   "scripts": {
     "autod": "autod",

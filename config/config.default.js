@@ -11,8 +11,14 @@ module.exports = () => {
   };
 
   config.pomelo = {
-    // custom additional directory, full path
-    directory: [],
+    client: {
+      master: {
+        host: '127.0.0.1',
+        port: 3005,
+        username: 'admin',
+        password: 'admin',
+      },
+    },
   };
 
   return config;
