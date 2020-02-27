@@ -42,12 +42,20 @@ exports.pomelo = {
 // {app_root}/config/config.default.js
 exports.pomelo = {
   client: {
-    master: {
+    master: [{
+      alias:'myTestMaster',
       host: '127.0.0.1',
       port: 3005,
       username: 'admin',
       password: 'admin',
     },
+    {
+      host: '192.168.0.12',
+      port: 3005,
+      username: 'admin',
+      password: 'admin',
+    },
+    ],
   },
 };
 
@@ -128,6 +136,9 @@ consts.COMANDS_ALL = [
 ```
 
 ## 更改记录
+### 0.0.7
+ 1. 增加多个Master连接功能；
+ 
 ### 0.0.5
  1. 使用 sex-pomelo-admin 1.0.7;
  1. 实现确保多个命令并行执行时，返回数据顺序正确；

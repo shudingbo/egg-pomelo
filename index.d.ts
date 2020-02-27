@@ -31,8 +31,17 @@ export class PomeloManagerApp {
   app: Application
   logger: EggLogger
 
-  /** 执行命令 */
-  runAction( cmd:String, context:String ): CmdRet
+  /** 执行命令 
+   * @param {string} cmd  - command，example: show servers
+   * @param {string} context - run context， all or serverId
+   * @param {string} masterName which master 
+  */
+  runAction( cmd:String, context:String, masterName:String ): CmdRet
+
+  /** 执行管理命令
+   * @param {string} cmd  - command，example: show servers
+   */
+  runMgrCmd(cmd:String):CmdRet
 
   /** 执行脚本字符串 */
   execStr( script:String, context:String ): CmdRet

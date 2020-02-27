@@ -3,7 +3,6 @@
 const scA = require('./lib/pomeloAgent');
 
 module.exports = agent => {
-
   agent.messenger.on('egg-pomelo', (...args) => {
     agent.pomelo.runCmd(...args);
   });

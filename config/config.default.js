@@ -12,12 +12,13 @@ module.exports = () => {
 
   config.pomelo = {
     client: {
-      master: {
+      master: [{
         host: '127.0.0.1',
         port: 3005,
         username: 'admin',
         password: 'admin',
       },
+      ],
     },
   };
 
