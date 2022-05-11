@@ -1,6 +1,6 @@
 {
   "name": "egg-pomelo",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "sex pomelo cli for egg",
   "eggPlugin": {
     "name": "pomelo"
@@ -16,8 +16,8 @@
     "pomelo"
   ],
   "dependencies": {
-    "@sex-pomelo/sex-pomelo-admin": "^1.0.8",
-    "@sex-pomelo/sex-pomelo-logger": "^0.1.9"
+    "@sex-pomelo/sex-pomelo-admin": "^1.0.9",
+    "@sex-pomelo/sex-pomelo-logger": "^0.1.14"
   },
   "deprecated": false,
   "devDependencies": {
